@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+#div1{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height:400px;
+    background-image: url("type_of_football.jpg");
+    background-color: #7FD59B;
+    /* background-repeat: no-repeat;  */
+    background-size:contain;
+    color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+    opacity: 0.7;
+    background-color: transparent;
+
+}
+.rectangle{
+    position: center;
+    /* border: darkblue solid 3px; */
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    height: auto;
+    text-align: center;
+    background-color: green;
+}
+
+.paragraph{
+    text-align: center;
+    font-size: large; 
+    color: white;
+    padding: 30px;
+    font-weight: bolder;
+    
+}
+.paragraph::selection{
+    color:red;
+    background-color: yellow;
+    
+}
+    _
+/* #div1::after{} */
+/* #football_head{
+
+    margin: 70px;
+} */
+/* #type_list{
+    text-align: center;
+} */
+#div2{
+background-color: green;
+height:300px;
+width:100%;
+border: 3px solid blue;
+}
+#div2 > span{
+    color: green;
+    font-size: x-large;
+    font-weight: bold;
+    /* background-color: limegreen; */
+
+}
+#div2 ul{
+    font-size: large;
+    font-weight: bold; 
+}
+.list_item::before{
+    content: "\21d2";
+}
+
+

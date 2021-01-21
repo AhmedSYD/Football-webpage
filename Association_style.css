@@ -1,0 +1,38 @@
+table{
+    border:3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+body{
+    background-color: lightgrey;
+}
+th,td{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    
+}
+td{
+    background-color: white;  
+}
+th{
+    color:white;
+    background-color: blue;
+}
+
+.grid{
+    display: grid;
+    padding:10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: blue;
+}
+.grid_item{
+    background-color:white;
+    font-size: xx-large;
+    text-align: center;
+}
+h2{
+    color:blue;
+}
