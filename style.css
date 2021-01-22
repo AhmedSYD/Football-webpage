@@ -1,0 +1,47 @@
+body {
+  background-color: lightgrey;
+}
+
+table th, table td {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+table td {
+  background-color: white;
+}
+table th {
+  color: white;
+  background-color: Green;
+}
+
+.row {
+  margin: 20px;
+  background-color: Green;
+}
+
+a:any-link {
+  color: white;
+}
+
+a:any-link:hover {
+  color: red;
+}
+
+h2 {
+  color: Green;
+}
+
+@media print {
+  .row a {
+    display: None;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

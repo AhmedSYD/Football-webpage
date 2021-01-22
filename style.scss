@@ -1,0 +1,49 @@
+$color:Green;
+
+body{
+    background-color: lightgrey;
+}
+%tableData{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    border:3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    //  th,td{
+
+    //  }
+     td{
+         @extend %tableData;
+        background-color: white;  
+    }
+    th{
+        @extend %tableData;
+        color:white;
+        background-color: $color;
+    }
+}
+
+
+.row{
+    margin: 20px;
+    background-color:$color;
+
+}
+a:any-link{
+    color: white;
+}
+a:any-link:hover{
+    color:red;
+}
+
+h2{
+    color:$color;
+}
+@media print{
+    .row a{
+        display: None;
+    }
+}

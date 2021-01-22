@@ -1,6 +1,9 @@
 body{
     background-color: white;
 }
+#div1, #div2{
+    color: green;
+}
 #div1{
     position: relative;
     text-align: center;
@@ -10,7 +13,7 @@ body{
     background-color: #7FD59B;
     /* background-repeat: no-repeat;  */
     background-size:contain;
-    color: green;
+    
     font-size: xx-large;
     font-weight: bolder;
     opacity: 0.7;
@@ -36,11 +39,17 @@ body{
     font-weight: bolder;
     
 }
+.paragraph > span{
+    font-family:cursive;
+
+
+}
 .paragraph::selection{
     color:red;
     background-color: yellow;
     
 }
+
     _
 /* #div1::after{} */
 /* #football_head{
@@ -56,19 +65,33 @@ height:300px;
 width:100%;
 border: 3px solid blue;
 }
-#div2 > span{
-    color: green;
+
+#div2{
     font-size: x-large;
     font-weight: bold;
-    /* background-color: limegreen; */
-
 }
+
 #div2 ul{
     font-size: large;
     font-weight: bold; 
 }
-.list_item::before{
+/* .list_item::before{
     content: "\21d2";
+} */
+a:any-link {
+    color: #55E2E2;
+  }
+a:any-link:hover{
+    color:red;
 }
-
+@media (min-width:600px){
+    .list_item::before{
+        content: "\21d2";
+    }
+}
+@media (max-width:599px){
+    .list_item::before{
+       content:"";
+    }
+}
 

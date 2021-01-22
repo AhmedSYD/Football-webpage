@@ -3,11 +3,15 @@
     <head>
         <title>Association Football</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Association_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 
     </head>
     <body>
+        <div class="container">
+
+
         <h2>Association Football</h2>
         <p>
             It is a team sport played with a spherical ball between two teams of 11 players. It is played by
@@ -16,7 +20,13 @@
             The object of the game is to outscore the opposition by moving the ball beyond the goal line into the
             opposing goal.The team with the higher number of goals wins the game.
         </p>
-        <img src="football.jpg" width=100%>
+        <div class="card" style="background-color: #E5E8E8;">
+        <img src="football.jpg" class="card-img-top" width=100%>
+        <div class="card-body">
+            <p class="card-text" >Tackling between two players</p>    
+        </div>
+       </div>
+
         <h2>The best players for ever</h2>
         <table>
             <tr>
@@ -56,13 +66,18 @@
                 <td>Sweeper</td>
             </tr>
         </table>
-        <div class="grid">
-            <div class="grid_item"><a href="home_page.html">return to home page</a></div>
-            <div class="grid_item"><a href="Gridiron.html">Gridiron football </a></div>
-            <div class="grid_item"><a href="Australian.html">Australian rules football</a></div>
-            <div class="grid_item"><a href="Rugby.html">Rugby football</a></div>
-            <div class="grid_item"><a href="Gaelic.html">Gaelic football</a></div>
+        <div class="row">
+            <div class="col"><a href="home_page.html">Return to home page</a></div>
+            <div class="col"><a href="Gridiron.html">Gridiron football </a></div>
+            <div class="col"><a href="Australian.html">Australian rules football</a></div>
+            <div class="col"><a href="Rugby.html">Rugby football</a></div>
+            <div class="col"><a href="Gaelic.html">Gaelic football</a></div>
 
         </div>
+        <!-- <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div> -->
+
+    </div>
     </body>
 </html>
