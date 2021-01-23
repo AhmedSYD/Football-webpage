@@ -32,8 +32,9 @@ This website is an assignment for the first lab of (Adv. Topics on Geospatial Te
 
 ## what’s contained in each file:
 - `home_page.html`: contains the structure of the homepage, including the definition of football and an unordered list for types of football. 
-- `home_page.css`: special style sheet for the `home_page.html` file. In this file, there are many different CSS properties, more than five properties, five different types of selectors (Multiple element selector, Descendant selector, Child selector, Pseudoclass selector, Pseudoelelement selector), and more than one id and class selectors. ( talk about media)
-- `Association.html`: has a brief describtion for the association football with an explanatory image and the table for the best players in this game. In addition, there is a grid at the bottom of the page that contains the links of other pages. The layout of this page is based on Bootstrap 4 in which has two components of Bootstrap (Container, Image card) and Bootstrap's grid model which contains the links of other pages. 
-
-
+- `home_page.css`: special style sheet for the `home_page.html` file. In this file, there are many different CSS properties, more than five properties, five different types of selectors (Multiple element selector, Descendant selector, Child selector, Pseudoclass selector, Pseudoelelement selector), and more than one id and class selectors. Media responsive is also utilized to remove arrow character when the width of the page is less than 600px.
+- `Association.html`: has a brief describtion for the association football with an explanatory image and the table for the best players in this game. In addition, there is a grid at the bottom of the page that contains the links of other pages. The layout of this page is based on Bootstrap 4 in which has two components of Bootstrap (Container, Image card) and Bootstrap's grid model which contains the links of other pages.
+- `Australian.html`,`Gaelic.html`,`Gridiron.html`, `Rugby.html`: All these files have the same layout of the `Association.html` file except they have different Bootstrap's columns in the Bootstrap's grid.
+- `style.scss`: special SCSS file for five html files (`Australian.html`,`Gaelic.html`,`Gridiron.html`, `Rugby.html`, `Association.html`). The SCSS variable, SCSS nesting, and SCSS inheritance are implemented in this file with other CSS selectors and attributes. Moreover, The Bootstrap grid doesn't display in the print by using media responsive feature.
+- `style.css`, `style.css.map`: these files are created by compiling the `style.scss` file.
 
