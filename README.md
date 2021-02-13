@@ -44,5 +44,5 @@ This website is an assignment for the first lab of (Adv. Topics on Geospatial Te
 ## References:
 - https://en.wikipedia.org/wiki/Football
 ## Demo:
-- You can find demo video for this program at this [**Link**](https://www.youtube.com/watch?v=-icXDEC_xf0&feature=youtu.be&ab_channel=ahmedsayed)
+- You can find the demo video for this program at this [**Link**](https://www.youtube.com/watch?v=-icXDEC_xf0&feature=youtu.be&ab_channel=ahmedsayed)
 
